@@ -66,8 +66,8 @@ function addRepoCard(fiveRepoArr) {
     item.addEventListener('click', addCard);
   });
   async function addCard(e) {
-    // input.value = '';
-    // completeBox.classList.remove('autocomplete-box--active1');
+    input.value = '';
+    completeBox.classList.remove('autocomplete-box--active1');
     const newCard = document.createElement('div');
     newCard.classList.add('card');
     const name = document.createElement('span');
